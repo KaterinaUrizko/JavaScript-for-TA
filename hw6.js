@@ -55,7 +55,7 @@
 // document.body.children[0].style.backgroundColor = "lightgreen";
 // document.getElementById("myDiv").children[0].style.fontweight = "700";
 // document.getElementById("myDiv").children[1].style.color = "red";
-// document.getElementById("myDiv").children[2].style.textDecoration = "underline"; 
+// document.getElementById("myDiv").children[2].style.textDecoration = "underline";
 // document.getElementById("myDiv").children[3].style.fontstyle = "italic";
 // document.getElementById("myList").style.listStyle = "none";
 // document.getElementById("myList").style.display = "flex";
@@ -75,3 +75,12 @@
 // inp1.value = input2Value;
 // inp2.value = input1Value;
 
+// Task 7
+
+// const x = 100;
+// document.body.innerHTML = 
+//     ` <main class="mainClass check item"> 
+//         <div id="myDiv"${x}>
+//             <p>First paragraph</p>
+//         </div>
+//     </main>`;
