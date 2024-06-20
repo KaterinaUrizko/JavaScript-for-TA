@@ -1,11 +1,11 @@
 // Task 1
 
-// let arr=[2,3,4,5] 
+// let arr=[2,3,4,5]
 // let product=1;
 // for (let i=0; i<arr.length; i++) {
 //     product*=arr[i];
 //     console.log(product);
-// } 
+// }
 
 // for(let element of arr){
 //     product*=element
@@ -77,7 +77,7 @@
 
 // function findUnique(arr) {
     
-//     let uniqueArr = new Set(arr);
+//     const uniqueArr = new Set(arr);
    
 //     return uniqueArr.size === arr.length;
 // }
@@ -85,14 +85,31 @@
 // let arr1 = [6, 2, 3, 4, 5, 6];
 // let arr2 = [1, 2, 3, 4, 5];
 
-// console.log(findUnique(arr1)); 
-// console.log(findUnique(arr2)); 
+// console.log(findUnique(arr1));
+// console.log(findUnique(arr2));
 
 // Task 7
 
 // function lastElement(arr, x) {
-//     return arr.slice(-x);
+//     return (x==null)? arr.pop(): arr.slice(-x);
 // }
 
+// console.log(lastElement([3, 4, 10, -5]));
+// console.log(lastElement([3, 4, 10, -5], 2));
+// console.log(lastElement([3, 4, 10, -5], 8));
 
 
+// Task 8
+
+// function bigFirstLatter(str) {
+//     const arr = str.split(' ');
+//     const newarr = [];
+
+//     for (let i = 0; i < arr.length; i++) {
+//         if (newarr.push(arr[i].charAt(0).toUpperCase() + arr[i].slice(1)));
+
+//     }
+//     return newarr.join(' ');
+// }
+
+// console.log(bigFirstLatter("I love java script"));
