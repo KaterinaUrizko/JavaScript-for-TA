@@ -102,34 +102,23 @@
 
 // Task 7.2
   
-let currentTime = new Date().getHours();
-let greeting;
+// let currentTime = new Date().getHours();
+// let greeting;
 
-if (currentTime >= 23 || currentTime < 5) {
-    greeting = "Good night";
-} else if (currentTime >= 5 && currentTime < 11) {
-    greeting = "Good morning";
-} else if (currentTime >= 11 && currentTime < 17) {
-    greeting = "Good day";
-} else {
-    greeting = "Good evening";
-}
+// if (currentTime >= 23 || currentTime < 5) {
+//     greeting = "Good night";
+// } else if (currentTime >= 5 && currentTime < 11) {
+//     greeting = "Good morning";
+// } else if (currentTime >= 11 && currentTime < 17) {
+//     greeting = "Good day";
+// } else {
+//     greeting = "Good evening";
+// }
 
-console.log(greeting);
+// console.log(greeting);
 
 
-if (currentTime >= 23 || currentTime < 5) {
-    greeting = "Good night";
-}
-if (currentTime >= 5 && currentTime < 11) {
-    greeting = "Good morning";
-}
-if (currentTime >= 11 && currentTime < 17) {
-    greeting = "Good day";
-}
-else { greeting = "Good evening" };
 
-console.log(greeting)
 
 
 
