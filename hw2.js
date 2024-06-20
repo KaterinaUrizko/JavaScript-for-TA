@@ -49,9 +49,9 @@
 
 // Task 4;
 
-// let cities = [" Rome ", " Lviv ", " Warsaw "]; 
+// let cities = [" Rome ", " Lviv ", " Warsaw "];
 // let ribbon = cities.map(city => city.trim()).join(" * ");
-// console.log(`"${ribbon}"`); 
+// console.log(`"${ribbon}"`);
 
 // Task 5;
 
@@ -65,7 +65,7 @@
 // let side2=+prompt("Enter the length of the 2-nd side");
 // let side3=+prompt("Enter the length of the 3-rd side");
 
-// if (isNaN(side1) || isNaN(side2) || isNaN(side3) || side1<=0|| side2<=0|| side3<=0) 
+// if (isNaN(side1) || isNaN(side2) || isNaN(side3) || side1<=0|| side2<=0|| side3<=0)
 //     { console.log("Incorrect data")
 // } else {
 //     let semiPerimeter = (side1 + side2 + side3) / 2;
@@ -76,29 +76,64 @@
 
 //     let rectangular = (side1 ** 2 + side2 ** 2 === side3 ** 2 ||
 //         side1 ** 2 + side3 ** 2 === side2 ** 2 ||
-//         side2 ** 2 + side3 ** 2 === side1 ** 2) ? console.log("The triangle is rectangular") : 
-//         console.log("The triangle is not rectangular") 
+//         side2 ** 2 + side3 ** 2 === side1 ** 2) ? console.log("The triangle is rectangular") :
+//         console.log("The triangle is not rectangular")
 //     };
 
 
-// Task 7
+// Task 7.1
 
 // let currentTime = new Date().getHours();
 // let greeting;
 // switch(true) {
-//     case (currentTime >= 23 || currentTime < 5):
-//         greeting = "Good night";
-//         break;
-//     case (currentTime >= 5 && currentTime < 11):
-//         greeting = "Good morning";
-//         break;
-//     case (currentTime >= 11 && currentTime < 17):
-//         greeting = "Good day";
-//         break;
-//     default:
-//         greeting = "Good evening";
-// }
+    // case (currentTime >= 23 || currentTime < 5):
+    //     greeting = "Good night";
+    //     break;
+    // case (currentTime >= 5 && currentTime < 11):
+    //     greeting = "Good morning";
+    //     break;
+    // case (currentTime >= 11 && currentTime < 17):
+    //     greeting = "Good day";
+    //     break;
+    // default:
+    //     greeting = "Good evening";
 // console.log(greeting);
+// }
+
+// Task 7.2
+  
+let currentTime = new Date().getHours();
+let greeting;
+
+if (currentTime >= 23 || currentTime < 5) {
+    greeting = "Good night";
+} else if (currentTime >= 5 && currentTime < 11) {
+    greeting = "Good morning";
+} else if (currentTime >= 11 && currentTime < 17) {
+    greeting = "Good day";
+} else {
+    greeting = "Good evening";
+}
+
+console.log(greeting);
+
+
+if (currentTime >= 23 || currentTime < 5) {
+    greeting = "Good night";
+}
+if (currentTime >= 5 && currentTime < 11) {
+    greeting = "Good morning";
+}
+if (currentTime >= 11 && currentTime < 17) {
+    greeting = "Good day";
+}
+else { greeting = "Good evening" };
+
+console.log(greeting)
+
+
+
+
 
 
 
