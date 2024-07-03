@@ -175,9 +175,9 @@
 
 // }
 
-const figures = [new Triangle(4, 5), new Circle(5), new Square(7)];
+// const figures = [new Triangle(4, 5), new Circle(5), new Square(7)];
 
-    console.log(handleFigures(figures));
+//     console.log(handleFigures(figures));
 
 
 

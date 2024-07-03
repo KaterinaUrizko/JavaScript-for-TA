@@ -90,42 +90,42 @@
 
 // Task 7 
 
-const citiesByCountry = {
-            ger: ["Berlin", "Munich", "Hamburg"],
-            usa: ["New York", "Los Angeles", "Chicago"],
-            ukr: ["Kyiv", "Lviv", "Odessa"]
-        };
+// const citiesByCountry = {
+//             ger: ["Berlin", "Munich", "Hamburg"],
+//             usa: ["New York", "Los Angeles", "Chicago"],
+//             ukr: ["Kyiv", "Lviv", "Odessa"]
+//         };
 
-        function updateCities() {
-            const countrySelect = document.getElementById('country');
-            const citySelect = document.getElementById('cities');
-            const selectedCountry = countrySelect.value;
+//         function updateCities() {
+//             const countrySelect = document.getElementById('country');
+//             const citySelect = document.getElementById('cities');
+//             const selectedCountry = countrySelect.value;
 
-            // Clear previous city options
-            citySelect.innerHTML = '<option value="">Select a city</option>';
+//             // Clear previous city options
+//             citySelect.innerHTML = '<option value="">Select a city</option>';
 
-            if (selectedCountry) {
-                const cities = citiesByCountry[selectedCountry];
-                cities.forEach(city => {
-                    const option = document.createElement('option');
-                    option.value = city;
-                    option.textContent = city;
-                    citySelect.appendChild(option);
-                });
-            }
+//             if (selectedCountry) {
+//                 const cities = citiesByCountry[selectedCountry];
+//                 cities.forEach(city => {
+//                     const option = document.createElement('option');
+//                     option.value = city;
+//                     option.textContent = city;
+//                     citySelect.appendChild(option);
+//                 });
+//             }
 
-            document.getElementById('selection').textContent = '';
-        }
+//             document.getElementById('selection').textContent = '';
+//         }
 
-        function displaySelection() {
-            const countrySelect = document.getElementById('country');
-            const citySelect = document.getElementById('cities');
-            const selectedCountry = countrySelect.options[countrySelect.selectedIndex].text;
-            const selectedCity = citySelect.options[citySelect.selectedIndex].text;
+//         function displaySelection() {
+//             const countrySelect = document.getElementById('country');
+//             const citySelect = document.getElementById('cities');
+//             const selectedCountry = countrySelect.options[countrySelect.selectedIndex].text;
+//             const selectedCity = citySelect.options[citySelect.selectedIndex].text;
 
-            if (selectedCountry && selectedCity && selectedCity !== "Select a city") {
-                document.getElementById('selection').textContent = `Selected Country: ${selectedCountry}, Selected City: ${selectedCity}`;
-            } else {
-                document.getElementById('selection').textContent = '';
-            }
-        }
+//             if (selectedCountry && selectedCity && selectedCity !== "Select a city") {
+//                 document.getElementById('selection').textContent = `Selected Country: ${selectedCountry}, Selected City: ${selectedCity}`;
+//             } else {
+//                 document.getElementById('selection').textContent = '';
+//             }
+//         }
